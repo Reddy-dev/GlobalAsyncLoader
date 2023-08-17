@@ -1,7 +1,6 @@
 ﻿#pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "Engine/AssetManager.h"
 #include "Engine/StreamableManager.h"
 #include "GlobalLoader.generated.h"
