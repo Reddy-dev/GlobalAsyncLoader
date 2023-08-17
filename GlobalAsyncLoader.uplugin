@@ -1,0 +1,22 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GlobalAsyncLoader",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Reddy-dev",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GlobalAsyncLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
