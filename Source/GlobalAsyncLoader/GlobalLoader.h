@@ -3,15 +3,9 @@
 #include "CoreMinimal.h"
 #include "Engine/AssetManager.h"
 #include "Engine/StreamableManager.h"
-#include "GlobalLoader.generated.h"
 
-UCLASS()
-class GLOBALASYNCLOADER_API ULoader final : public UObject
+namespace GlobalLoader
 {
-	GENERATED_BODY()
-
-public:
-
 	template <class T, typename CallbackType>
 	static void Load(TSoftClassPtr<T> SoftClass, CallbackType Callback)
 	{
@@ -61,4 +55,4 @@ public:
 			Callback(SoftObject.Get());
 		}
 	}
-};
+} // namespace GlobalLoader
